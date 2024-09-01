@@ -14,7 +14,8 @@ namespace Week2Exercise2
             int number = Convert.ToInt32(Console.ReadLine()); // Read the input from the user and convert it to an integer
             int sum = 0; // Initialze a variable to hold the sum of the digits
             // Use a while loop to process each digit of the number
-            while (number != 0) // The loop continues untl the number is reduced to 0
+            // The loop continues until the number is reduced to 0
+            while (number != 0) // The loop continues to run as long as the number is not 0
             {
                 int lastDigit = number % 10; // Use the modulus operator to get the last digit of the number
                 sum += lastDigit; // Add the last digit to the sum
